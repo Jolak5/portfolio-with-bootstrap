@@ -1,0 +1,13 @@
+body {
+  font-family: "inter", sans-serif;
+}
+.hero-div {
+  background-image: url("images/Header-llustration-desktop.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.section-1 {
+  padding: 15% 30%;
+}
