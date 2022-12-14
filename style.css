@@ -24,3 +24,7 @@ body {
 }
 
 /* About Section */
+.project-img,
+.badge {
+  background-color: #ebf0ee;
+}
