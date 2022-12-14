@@ -263,5 +263,51 @@
         <!-- This is the end of a card -->
       </div>
     </section>
+    <section class="section-5 row justify-content-center align-items-center">
+      <p class="col-md-4 fs-3">
+        I'm always interested in hearing about new projects, so if you'd like to
+        chat please get in touch.
+      </p>
+      <form class="col-md-5 ms-5" action="/action_page.php">
+        <div class="mb-3 mt-3">
+          <label for="full-name" hidden class="form-label"
+            >Full full-name:</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="full-name"
+            placeholder="Full name"
+            name="name"
+            minlength="1"
+            maxlength="30"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="email" hidden class="form-label">Password:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Email address"
+            name="email"
+            required
+          />
+        </div>
+        <label for="message" hidden>Comments:</label>
+        <textarea
+          class="form-control"
+          rows="5"
+          id="message"
+          name="text"
+          minlength="1"
+          maxlength="500"
+          placeholder="Enter text here"
+          required
+        ></textarea>
+        <button type="submit" class="btn btn-success mt-3">Get in touch</button>
+      </form>
+    </section>
   </body>
 </html>
