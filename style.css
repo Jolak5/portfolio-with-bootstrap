@@ -7,6 +7,11 @@
 body {
   font-family: "inter", sans-serif;
 }
+
+.row > * {
+  padding: 0 !important;
+}
+
 .hero-div {
   background-image: url("images/Header-llustration-desktop.png");
   background-size: cover;
