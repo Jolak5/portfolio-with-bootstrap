@@ -25,6 +25,11 @@ body {
 
 /* About Section */
 .project-img,
-.badge {
+.badge,
+.card-technologies {
   background-color: #ebf0ee;
+}
+
+.card-icon {
+  width: 40%;
 }
