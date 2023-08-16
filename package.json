@@ -14,9 +14,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jolak5/Portfolio-with-Bootstrap/issues"
+    "url": "https://github.com/Jolak5/My-Portfolio-/issues"
   },
-  "homepage": "https://github.com/Jolak5/Portfolio-with-Bootstrap#readme",
+  "homepage": "https://github.com/Jolak5/My-Portfolio-#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
