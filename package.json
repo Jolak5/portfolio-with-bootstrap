@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jolak5/My-Portfolio-.git"
+    "url": "git+https://github.com/Jolak5/Portfolio-with-Bootstrap.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jolak5/My-Portfolio-/issues"
+    "url": "https://github.com/Jolak5/Portfolio-with-Bootstrap/issues"
   },
-  "homepage": "https://github.com/Jolak5/My-Portfolio-#readme",
+  "homepage": "https://github.com/Jolak5/Portfolio-with-Bootstrap#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
