@@ -19,27 +19,34 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
   </head>
-  <body>
-    <div class="hero-div mb-5">
+  <body class="body" id="popup-window">
+    <div class="hero-div">
       <header>
-        <nav class="navbar navbar-expand-sm justify-content-center mt-3">
-          <ul class="navbar-nav">
-            <li class="nav-item ps-5">Portfolio</li>
-            <li class="nav-item ps-5">About</li>
-            <li class="nav-item ps-5">Contact</li>
+        <nav class="navbar-class">
+          <a class="welcome" href="#"
+            ><img
+              class="welcome1"
+              src="images/Logo Placeholder.svg"
+              alt="My logo"
+          /></a>
+
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="#section-1">Portfolio</a></li>
+            <li class="nav-item"><a href="#section-2">About</a></li>
+            <li class="nav-item"><a href="#section-3">Contact</a></li>
           </ul>
+
+          <div class="hamburger hidden">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
         </nav>
       </header>
       <section class="container text-center section-1">
         <h1 class="display-5 fw-bold">
-          Hey there. I’m Alex. <br />
+          Hey there. I’m Kayode. <br />
           <span class="text-success">I’m a software developer</span>
         </h1>
         <p class="p-3 lh-lg">
@@ -48,23 +55,23 @@
           project you need coded, <br />don’t hestiate to contact me.
         </p>
         <div class="pb-5">
-          <a href="" class="ps-2"
+          <a href="https://github.com/Jolak5" class="ps-2"
             ><img src="images/github.svg" alt="github"
           /></a>
-          <a href="" class="ps-2"
+          <a href="https://www.linkedin.com/in/olatunji-kayode/" class="ps-2"
             ><img src="images/Linkedin icon.svg" alt="Linkedin"
           /></a>
-          <a href="" class="ps-2"
+          <a href="https://angel.co/u/kayode-joseph-olatunji" class="ps-2"
             ><img src="images/angellist.svg" alt="angellist"
           /></a>
-          <a href="" class="ps-2"
+          <a href="https://mobile.twitter.com/I_amBabakay" class="ps-2"
             ><img src="images/twitter.svg" alt="twitter"
           /></a>
-          <a href="" class="ps-2"
+          <a href="https://medium.com/@kayodej4" class="ps-2"
             ><img src="images/medium.svg" alt="medium"
           /></a>
         </div>
-        <a href=""
+        <a href="#"
           ><img
             class="pt-5"
             src="images/Disabled.svg"
@@ -78,17 +85,94 @@
       <div class="project-cards row justify-content-center">
         <!-- this is the beginning of a  card -->
         <div class="card col-lg-3 col-md-4 text-center m-3">
-          <div class="project-img" style="height: 200px; width: 100%"></div>
+          <img src="images/Hotel booking.PNG" alt="" srcset="" />
           <div class="card-body">
-            <h4 class="card-title text-center m-3">
-              Multi-Post Stories <br />
-              Gain+Glory
-            </h4>
+            <h4 class="card-title text-center m-3">Hotel Booking App</h4>
             <div class="technologies mb-3 justify-content-center">
-              <span class="badge text-dark p-2 mb-2">Ruby on rails</span>
+              <span class="badge text-dark p-2 mb-2">css</span>
+              <span class="badge text-dark p-2 mb-2">Ruby on Rails</span>
+
+              <span class="badge text-dark p-2 mb-2">JavaScript</span>
+              <span class="badge text-dark p-2 mb-2">React JS</span>
+            </div>
+            <a
+              href="https://hotel-booking-now.onrender.com/"
+              class="btn btn-success"
+              >See Project</a
+            >
+          </div>
+        </div>
+        <!-- This is the end of a card -->
+        <!-- this is the beginning of a  card -->
+        <div class="card col-lg-3 col-md-4 text-center m-3">
+          <img src="images/book store.PNG" alt="" srcset="" />
+          <div class="card-body">
+            <h4 class="card-title text-center m-3">Book Store</h4>
+
+            <div class="technologies mb-3 justify-content-center">
+              <span class="badge text-dark p-2 mb-2">React JS</span>
+
               <span class="badge text-dark p-2 mb-2">css</span>
               <span class="badge text-dark p-2 mb-2">JavaScript</span>
               <span class="badge text-dark p-2 mb-2">html</span>
+            </div>
+            <a
+              href="https://book-store-eamv.onrender.com/"
+              class="btn btn-success"
+              >See Project</a
+            >
+          </div>
+        </div>
+        <!-- This is the end of a card -->
+        <!-- this is the beginning of a  card -->
+        <div class="card col-lg-3 col-md-4 text-center m-3">
+          <img src="images/Book My Ticket App.PNG" alt="" srcset="" />
+          <div class="card-body">
+            <h4 class="card-title text-center m-3">BookMyTicket</h4>
+            <div class="technologies mb-3 justify-content-center">
+              <span class="badge text-dark p-2 mb-2">React JS</span>
+              <span class="badge text-dark p-2 mb-2">css</span>
+              <span class="badge text-dark p-2 mb-2">JavaScript</span>
+              <span class="badge text-dark p-2 mb-2">API</span>
+            </div>
+            <a
+              href="https://book-my-ticket-2ghl.onrender.com/"
+              class="btn btn-success"
+              >See Project</a
+            >
+          </div>
+        </div>
+        <!-- This is the end of a card -->
+        <!-- this is the beginning of a  card -->
+        <div class="card col-lg-3 col-md-4 text-center m-3">
+          <img src="images/rescue earth.PNG" alt="" srcset="" />
+          <div class="card-body">
+            <h4 class="card-title text-center m-3">Rescue earth</h4>
+            <div class="technologies mb-3 justify-content-center">
+              <span class="badge text-dark p-2 mb-2">React JS</span>
+
+              <span class="badge text-dark p-2 mb-2">css</span>
+              <span class="badge text-dark p-2 mb-2">JavaScript</span>
+              <span class="badge text-dark p-2 mb-2">html</span>
+            </div>
+            <a
+              href="https://covid-19-stat.onrender.com/"
+              class="btn btn-success"
+              >See Project</a
+            >
+          </div>
+        </div>
+        <!-- This is the end of a card -->
+        <!-- this is the beginning of a  card -->
+        <div class="card col-lg-3 col-md-4 text-center m-3">
+          <img src="images/Space traveler.PNG" alt="" srcset="" />
+          <div class="card-body">
+            <h4 class="card-title text-center m-3">Space Travelers' Hub</h4>
+            <div class="technologies mb-3 justify-content-center">
+              <span class="badge text-dark p-2 mb-2">css</span>
+              <span class="badge text-dark p-2 mb-2">JavaScript</span>
+              <span class="badge text-dark p-2 mb-2">html</span>
+              <span class="badge text-dark p-2 mb-2">React JS</span>
             </div>
             <a href="#" class="btn btn-success">See Project</a>
           </div>
@@ -96,91 +180,19 @@
         <!-- This is the end of a card -->
         <!-- this is the beginning of a  card -->
         <div class="card col-lg-3 col-md-4 text-center m-3">
-          <div class="project-img" style="height: 200px; width: 100%"></div>
+          <img src="images/To do APp.PNG" alt="To do" srcset="" />
           <div class="card-body">
-            <h4 class="card-title text-center m-3">
-              Multi-Post Stories <br />
-              Gain+Glory
-            </h4>
+            <h4 class="card-title text-center m-3">ToDo App</h4>
             <div class="technologies mb-3 justify-content-center">
-              <span class="badge text-dark p-2 mb-2">Ruby on rails</span>
               <span class="badge text-dark p-2 mb-2">css</span>
               <span class="badge text-dark p-2 mb-2">JavaScript</span>
               <span class="badge text-dark p-2 mb-2">html</span>
             </div>
-            <a href="#" class="btn btn-success">See Project</a>
-          </div>
-        </div>
-        <!-- This is the end of a card -->
-        <!-- this is the beginning of a  card -->
-        <div class="card col-lg-3 col-md-4 text-center m-3">
-          <div class="project-img" style="height: 200px; width: 100%"></div>
-          <div class="card-body">
-            <h4 class="card-title text-center m-3">
-              Multi-Post Stories <br />
-              Gain+Glory
-            </h4>
-            <div class="technologies mb-3 justify-content-center">
-              <span class="badge text-dark p-2 mb-2">Ruby on rails</span>
-              <span class="badge text-dark p-2 mb-2">css</span>
-              <span class="badge text-dark p-2 mb-2">JavaScript</span>
-              <span class="badge text-dark p-2 mb-2">html</span>
-            </div>
-            <a href="#" class="btn btn-success">See Project</a>
-          </div>
-        </div>
-        <!-- This is the end of a card -->
-        <!-- this is the beginning of a  card -->
-        <div class="card col-lg-3 col-md-4 text-center m-3">
-          <div class="project-img" style="height: 200px; width: 100%"></div>
-          <div class="card-body">
-            <h4 class="card-title text-center m-3">
-              Multi-Post Stories <br />
-              Gain+Glory
-            </h4>
-            <div class="technologies mb-3 justify-content-center">
-              <span class="badge text-dark p-2 mb-2">Ruby on rails</span>
-              <span class="badge text-dark p-2 mb-2">css</span>
-              <span class="badge text-dark p-2 mb-2">JavaScript</span>
-              <span class="badge text-dark p-2 mb-2">html</span>
-            </div>
-            <a href="#" class="btn btn-success">See Project</a>
-          </div>
-        </div>
-        <!-- This is the end of a card -->
-        <!-- this is the beginning of a  card -->
-        <div class="card col-lg-3 col-md-4 text-center m-3">
-          <div class="project-img" style="height: 200px; width: 100%"></div>
-          <div class="card-body">
-            <h4 class="card-title text-center m-3">
-              Multi-Post Stories <br />
-              Gain+Glory
-            </h4>
-            <div class="technologies mb-3 justify-content-center">
-              <span class="badge text-dark p-2 mb-2">Ruby on rails</span>
-              <span class="badge text-dark p-2 mb-2">css</span>
-              <span class="badge text-dark p-2 mb-2">JavaScript</span>
-              <span class="badge text-dark p-2 mb-2">html</span>
-            </div>
-            <a href="#" class="btn btn-success">See Project</a>
-          </div>
-        </div>
-        <!-- This is the end of a card -->
-        <!-- this is the beginning of a  card -->
-        <div class="card col-lg-3 col-md-4 text-center m-3">
-          <div class="project-img" style="height: 200px; width: 100%"></div>
-          <div class="card-body">
-            <h4 class="card-title text-center m-3">
-              Multi-Post Stories <br />
-              Gain+Glory
-            </h4>
-            <div class="technologies mb-3 justify-content-center">
-              <span class="badge text-dark p-2 mb-2">Ruby on rails</span>
-              <span class="badge text-dark p-2 mb-2">css</span>
-              <span class="badge text-dark p-2 mb-2">JavaScript</span>
-              <span class="badge text-dark p-2 mb-2">html</span>
-            </div>
-            <a href="#" class="btn btn-success">See Project</a>
+            <a
+              href="https://jolak5.github.io/to-do-list/dist/index.html"
+              class="btn btn-success"
+              >See Project</a
+            >
           </div>
         </div>
         <!-- This is the end of a card -->
@@ -283,7 +295,13 @@
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
       </p>
-      <form class="col-md-5 ms-5" action="/action_page.php">
+      <form
+        class="col-md-5 ms-5"
+        action="mailto:kayodej4@gmail.com"
+        method="POST"
+        enctype="multipart/form-data"
+        name="EmailForm"
+      >
         <div class="mb-3 mt-3">
           <label for="full-name" hidden class="form-label"
             >Full full-name:</label
@@ -355,5 +373,13 @@
         <a href="" class="ps-2"><img src="images/medium.svg" alt="medium" /></a>
       </div>
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
   </body>
 </html>
