@@ -24,6 +24,10 @@ body {
   padding: 15% 30%;
 }
 
+/* .card-technologies > img {
+  width: 100%;
+} */
+
 .section-1 h1 {
   animation: writer 4s ease-in-out;
 }
