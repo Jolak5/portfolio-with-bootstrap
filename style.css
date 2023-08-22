@@ -5,8 +5,9 @@
 }
 
 body {
-  font-family: "inter", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif !important;
   position: relative;
+  background-color: #ebecee !important;
 }
 
 .row > * {
@@ -14,14 +15,19 @@ body {
 }
 
 .hero-div {
-  background-image: url("images/Header-llustration-desktop.png");
+  background-image: url("images/Background\ portfolio.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
 }
 
+img > svg:hover {
+  background-color: red;
+}
+
 .section-1 {
-  padding: 15% 30%;
+  padding: 2% 30%;
+  margin: 3% 0;
 }
 
 /* .card-technologies > img {
@@ -32,6 +38,11 @@ body {
   animation: writer 4s ease-in-out;
 }
 
+.recent-works,
+.contact-me {
+  background-color: white;
+  padding: 5%;
+}
 @keyframes writer {
   0% {
     transform: translateX(-250px);
@@ -51,10 +62,6 @@ body {
 
 .card-icon {
   width: 40%;
-}
-
-footer {
-  margin-top: 20%;
 }
 
 .contact-right {
@@ -78,9 +85,9 @@ footer {
   visibility: hidden;
 }
 
-.section-3 {
-  position: relative;
-  margin-bottom: 5%;
+.about-me p {
+  padding: 0 15%;
+  font-size: 20px;
 }
 
 .about-left {
@@ -108,12 +115,14 @@ a {
   list-style: none;
   background-color: transparent;
   margin: 1px 0;
+  padding-top: 20px;
 }
 
 .nav-item a {
   background-color: transparent;
   color: black;
   text-decoration: none;
+  font-size: 20px;
 }
 
 .navbar-class {
@@ -195,9 +204,27 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  .navbar-class {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    box-shadow: 1px 2px 2px #ebf0ee;
+  }
   .welcome,
   .hamburger {
     visibility: hidden;
+  }
+
+  .about {
+    padding-top: 10%;
+  }
+
+  .nav-item a {
+    font-size: 20px;
+    font-weight: bold;
   }
 
   .navbar {
